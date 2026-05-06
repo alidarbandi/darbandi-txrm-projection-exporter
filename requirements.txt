@@ -1,0 +1,7 @@
+numpy
+olefile
+tifffile
+pandas
+openpyxl
+pillow
+matplotlib

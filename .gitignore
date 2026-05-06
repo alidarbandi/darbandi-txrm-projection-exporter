@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.env
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Microscopy source data and generated outputs
+*.txrm
+*.txm
+*.tif
+*.tiff
+*_txrm_export_*/
+projections/
+reference/
+dark_field/
+auxiliary_images/
+flatfield_corrected/
+attenuation/
+metadata/
+logs/
+
+# Large tabular exports
+*.xlsx
+*.xls

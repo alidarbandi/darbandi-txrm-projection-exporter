@@ -1,0 +1,25 @@
+[project]
+name = "darbandi-txrm-projection-exporter"
+version = "0.1.0"
+description = "GUI and CLI tool for extracting TXRM/TXM projections, preprocessing images, and scanning TIGRE FDK geometry."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Ali Darbandi" }
+]
+dependencies = [
+  "numpy",
+  "olefile",
+  "tifffile",
+  "pandas",
+  "openpyxl",
+  "pillow",
+  "matplotlib"
+]
+
+[project.scripts]
+darbandi-txrm = "txrm_read:main"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
